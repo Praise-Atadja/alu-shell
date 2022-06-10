@@ -1,2 +1,2 @@
 #!/bin/bash
-find io_redirections_and_filters -type f | wc -1
+ls -l | grep ^d | wc -l
